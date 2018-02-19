@@ -32,8 +32,16 @@ img {
 main{
     margin-top:80px;
     padding-left: 10%;
-    padding-right: 10%;
+    padding-right:10%;
 }
+article{
+    padding: 2% 10% 2% 10%;
+
+}
+article:nth-child(even){
+    background: #F2F2F2;
+}
+
 
 footer {
     margin-top: 1em;

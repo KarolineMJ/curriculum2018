@@ -1,7 +1,76 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+nav {
+    top: 0;
+    background-color: #e7e8e6;
+    color: white;
+    padding: .5%;
+    position: fixed;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+    padding: 2em;
+}
+
+img {
+    width: 100%;
+}
+
+footer {
+    margin-top: 1em;
+    background: #e7e8e6;
+    height: 1em;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+.circleContainer {
+        position: relative;
+        z-index: -1;
+    }
+    .textOverCircle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
 .hide{
   display: none;
 }
 
 .examImages{
     cursor: pointer;
+  
+@media only screen and (min-width: 700px) {
+  main{
+        display: grid;
+        grid-template-columns: repeat(4,1fr)
+    }
+    .container {
+        position: relative;
+        z-index: -1;
+    }
+    section{
+        grid-column: 2/4;
+    }
+    .textOverImage {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .textOverImage p {
+        color: white;
+    }
 }

@@ -1,0 +1,51 @@
+[
+		{
+			"name": "Group work",
+			"description" : [ "A group has been formed when the group members have registered with the lecturer/supervisor who is responsible for the group formation process. The group formation process is not complete until all students in the class/semester are part of a group. Once it is announced that the groups have been formed, the students are officially members of a group, which means that all group members are responsible for the material produced by the group. Requirements regarding group size are stated in the project description for the individual exam. The head of education may grant an exemption from the requirements regarding group size based on a written application, which must be submitted during the exam project period. "]
+				},
+        {
+			"name": "Dissolution of group",
+			"description" : [ "If the members of a group decide to dissolve the group in the middle of the process, all members of the group will be entitled to use the material which has been produced by the group up until the time of dissolution. A group is not considered dissolved until the group’s supervisor has been informed."]
+				},
+
+        {
+			"name": "Exclusion of group member",
+			"description" : [ "If a group member is excluded from a group, the excluded group member must be allowed to use the material which the excluded member has produced. A group member is not considered excluded until the group’s supervisor has been informed."]
+				},
+
+        {
+			"name": "Re-exam",
+			"description" : [ "Students who fail the first exam attempt are offered two more attempts. The re-exam is held immediately after the first attempt. Students are entitled to a re-exam based on the same project, a revised project or a new project. KEA provides advice on the advantages and disadvantages of the three methods in relation to the individual student’s work. The purpose of the re-exam is the same as for the ordinary exam."]
+				},
+
+        {
+			"name": "Re-exam due to illness or for other acceptable reasons",
+			"description" : [ "Re-exams due to documented illness or for other acceptable reasons are held before the final exam in the fourth semester. If KEA estimates that the student has been almost fully active during the internship, the re-exam will be based on the report and the products produced by the student in the course of the internship. If KEA estimates that the student has not been almost fully active during the internship, the student must complete another internship."]
+				},
+
+        {
+			"name": "Writing and spelling skills in the assessment",
+			"description" : [ "Spelling and writing skills are taken into account in the assessment of the final exam project. The assessment should be regarded as an overall evaluation of the academic content and the student’s spelling and writing skills; however, with the greatest emphasis being placed on the academic content. If the project contains a large number of major spelling and writing mistakes, the grade awarded may be lowered by one increment, for example from 7 to 4."]
+				},
+
+        {
+			"name": "Use of materials and aids",
+			"description" : [ "All materials and aids are permitted unless otherwise expressly stated for the individual exam."]
+				},
+
+        {
+			"name": "Special exam conditions",
+			"description" : [ "Subject to application, special exam conditions are offered for students with physical or mental impairment and for students with similar difficulties, if deemed necessary by KEA to provide the students concerned with equal opportunities in the exam situation. Special exam conditions must, however, not change the standard of the exam. Applications must be submitted no later than four weeks before the exam."]
+				},
+
+        {
+			"name": "Plagiarism",
+			"description" : [ "Projects and other material in connection with exams must be prepared by the students independently. Students who unlawfully present other people’s work as being their own (plagiarism) or who use their own previously assessed work without stating the source will be expelled from the exam. Students may also be expelled after the exam. Expulsion from an exam due to cheating means that any grade already awarded will be withdrawn, and the student will have used one exam attempt. For information about plagiarism, see www.stopplagiat.nu."]
+				},
+
+        {
+			"name": "Cheating and disruptive behaviour during exams",
+			"description" : [ "Cheating at exams will be handled in accordance with the rules set out in the Ministerial Order on Examinations on Professionally Oriented Higher Education Programmes (the Examination Order). Students who cheat at an exam will be expelled from the exam. In case of aggravating circumstances, students may be suspended from KEA for a long or short period of time. In such event, students must be issued with a written warning stating that repeated cheating may result in permanent expulsion. Cheating includes: – obtaining unlawful help during an exam – providing unlawful help to other students during an exam – presenting other people’s work as one’s own (plagiarism – see www.stopplagiat.nu), using materials and aids not permitted for the exam in question. Expulsion from an exam due to cheating means that the awarded grade will be withdrawn, and the student will have used one exam attempt. Students who exhibit disruptive behaviour during an exam may be ordered to leave the exam. In less serious cases, KEA will first warn the students."]
+				}
+
+]

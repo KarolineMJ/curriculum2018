@@ -1,18 +1,31 @@
 "use strict"
 const template = document.querySelector('template').content;
 
-fetch("json/examInfo.json").then(result => result.json()).then(data => show(data));
+fetch("json/examInfo.json").then(result => result.json()).then(data => showExam(data));
+
+fetch("json/otherRulesInfo.json").then(result => result.json()).then(data => showInfo(data));
 
 
-function show(data) {
+function showExam(data) {
     data.forEach(elem => {
-        const section = document.querySelector('section');
+        const section = document.querySelector('.examInfo');
         const clone = template.cloneNode(true);
         clone.querySelector("h3").textContent = elem.name;
         clone.querySelector("p").textContent = elem.description;
         section.appendChild(clone);
     });
 };
+
+function showInfo(data) {
+    data.forEach(elem => {
+        const section = document.querySelector('.rules');
+        const clone = template.cloneNode(true);
+        clone.querySelector("h3").textContent = elem.name;
+        clone.querySelector("p").textContent = elem.description;
+        section.appendChild(clone);
+    });
+};
+
 
 const modal = document.getElementById('myModal');
 

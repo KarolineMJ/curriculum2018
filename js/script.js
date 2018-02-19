@@ -16,7 +16,7 @@ function show(data) {
 
 const modal = document.getElementById('myModal');
 
-const bubbles = document.querySelectorAll('.exambubble');
+const bubbles = document.querySelectorAll('.bubbleSVG');
 
 bubbles.forEach(bubble => {
     bubble.addEventListener("click", function () {

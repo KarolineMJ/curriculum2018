@@ -57,8 +57,11 @@ footer {
     grid-template-columns: 1fr 1fr 1fr 1fr;
 
 }
-.exambubble{
+.bubbleSVG{
     cursor: pointer;
+}
+.textOverCircle{
+    pointer-events: none;
 }
 
 .middelBubbles{
@@ -130,3 +133,5 @@ footer {
         color: white;
     }
 }
+
+

@@ -1,55 +1,47 @@
-[   {"title": "First-semester exam requirements",
-     "description": ["The objective is to test the students’ understanding of the theory, method and tools acquired through participation in the compulsory programme element: Multimedia Production 1",
+[
+    {
+        "title": "First-semester exam requirements",
+        "description": ["The objective is to test the students’ understanding of the theory, method and tools acquired through participation in the compulsory programme element: Multimedia Production 1",
 
      "At this exam, students must present one or more product examples submitted in the first semester. During the first semester, the students work on a digital portfolio, with product examples from the classes. The portfolio forms the basis of the first-semester exam. Internal exam Individual oral exam based on one or more product examples submitted in the first semester. The exam is held after the first semester."]
     },
-
-
-
-    {"title": "Second-semester exam requirements",
-     "decription": ["The objective is to test the students’ understanding of the theory, method and tools acquired through participation in the compulsory programme element: Multimedia Production 2",
+    {
+        "title": "Second-semester exam requirements",
+        "description": ["The objective is to test the students’ understanding of the theory, method and tools acquired through participation in the compulsory programme element: Multimedia Production 2",
 
     "The exam is to demonstrate that the student is able to"],
-     "bulletpoints": ["communicate visually to a target group ",
+        "bulletpoints": ["communicate visually to a target group ",
     "develop an interactive digital product, taking into account the stakeholders",
     "carry out a project in a team. "],
-     "subtitle": "External exam",
-    "subdescription":"Oral individual or group exam based on project work carried out in groups. The exam is held after the second semester.",
-     "subtitle": "Project work, product and report ",
-      "subdescription":"Project work must be interdisciplinary and problem-oriented, resulting in a functioning digital prototype and a report documenting the development work and the product. A detailed description of the project requirements can be found on the learning platform for the Multimedia Design and Communication programme and is intended to ensure that essential areas in the second semester are broadly combined. The project description sets out the requirements regarding group size, product scope and process documentation. It is made available to the students, examiner and co-examiner at the beginning of the project period.",
-     "subtitle": "Submission",
-      "subdescription":"Students must submit a functioning digital prototype and a project report. The report may not exceed 10 standard pages, plus 8 standard pages per group member. Front page, table of contents, bibliography and appendices are not included in the maximum number of pages. A standard page is 2,400 characters with spaces and footnotes. In connection with group reports, the individual student’s contribution must be clearly stated. Curriculum for the Academy Profession Degree Programme in Multimedia Design and Communication ",
+        "subtitle": "External exam",
+        "subdescription": "Oral individual or group exam based on project work carried out in groups. The exam is held after the second semester.",
+        "subtitle": "Project work, product and report ",
+        "subdescription": "Project work must be interdisciplinary and problem-oriented, resulting in a functioning digital prototype and a report documenting the development work and the product. A detailed description of the project requirements can be found on the learning platform for the Multimedia Design and Communication programme and is intended to ensure that essential areas in the second semester are broadly combined. The project description sets out the requirements regarding group size, product scope and process documentation. It is made available to the students, examiner and co-examiner at the beginning of the project period.",
+        "subtitle": "Submission",
+        "subdescription": "Students must submit a functioning digital prototype and a project report. The report may not exceed 10 standard pages, plus 8 standard pages per group member. Front page, table of contents, bibliography and appendices are not included in the maximum number of pages. A standard page is 2,400 characters with spaces and footnotes. In connection with group reports, the individual student’s contribution must be clearly stated. Curriculum for the Academy Profession Degree Programme in Multimedia Design and Communication "
      },
 
+    {
+        "title": "Third-semester exam requirements",
+        "description": "The objective is to test the students’ understanding of the theory, method and tools acquired through the compulsory programme element: Multimedia Production Advanced, and the students’ ability to develop a professional profile in relation to the current requirements in the area. An exam assignment constitutes the basis of the exam: The specific requirements regarding the exam assignment are published on the learning platform for the Multimedia Design and Communication programme.",
+        "subtitle": "Internal exam",
+        "subdescription": "Individual oral exam based on one or more product examples submitted in the third semester. The exam is held in the course of or after the third semester. The specific requirements regarding the duration of the exam are published on the learning platform for the Multimedia Design and Communication programme.",
 
-    {"title": "Third-semester exam requirements",
-    "description": "The objective is to test the students’ understanding of the theory, method and tools acquired through the compulsory programme element: Multimedia Production Advanced, and the students’ ability to develop a professional profile in relation to the current requirements in the area. An exam assignment constitutes the basis of the exam: The specific requirements regarding the exam assignment are published on the learning platform for the Multimedia Design and Communication programme.",
-    "subtitle": "Internal exam",
-     "subdescription": "Individual oral exam based on one or more product examples submitted in the third semester. The exam is held in the course of or after the third semester. The specific requirements regarding the duration of the exam are published on the learning platform for the Multimedia Design and Communication programme.",
-
-     "title": "Elective subject on third semester",
-     "subtitle": "Requirements for elective subject exam",
-     "subdescription": "The elective subject is concluded with a presentation and a discussion, either individually or in groups, of one or more products which the students have developed in connection with the elective subject. The requirements for the presentation and product(s) are made available on the learning platform for the Multimedia Design and Communication programme.",
-     "subtitle":"Exam",
-     "subdescription":"The exam form may vary depending on the objective of the elective subject in question."
+        "title": "Elective subject on third semester",
+        "subtitle": "Requirements for elective subject exam",
+        "subdescription": "The elective subject is concluded with a presentation and a discussion, either individually or in groups, of one or more products which the students have developed in connection with the elective subject. The requirements for the presentation and product(s) are made available on the learning platform for the Multimedia Design and Communication programme.",
+        "subtitle": "Exam",
+        "subdescription": "The exam form may vary depending on the objective of the elective subject in question."
     },
 
 
-    {"title":"Final exam",
-     "description":["The objective of the final exam project is to document whether the student has acquired the qualifications needed to combine theoretical, methodological and practical elements and to communicate these.",
+    {
+        "title": "Final exam",
+        "description": ["The objective of the final exam project is to document whether the student has acquired the qualifications needed to combine theoretical, methodological and practical elements and to communicate these.",
     "The problem statement must be central to the multimedia profession and be prepared by the student in cooperation with a public or private company. Alternatively, the final exam project can be based on the student starting up his or her own business. KEA must approve the problem statement.",
     "The project concludes with a report and a product. The product must be a digital multimedia production. The final exam project must not exceed 30 standard pages for one student + 10 standard pages for each additional group member. Front page, table of contents, bibliography and appendices are not included in the maximum number of pages. Appendices will not be assessed. A standard page is 2,400 characters with spaces and footnotes.",
     "The requirements for the report, presentation and product(s) are described in the fourth-semester guide for final projects, which is available on the learning platform for the Multimedia Design and Communication programme. The project description defines group size, the scope of the product(s) and process documentation as well as submission deadlines and requirements. The project description is made available to students, lecturers and co-examiners.",
     "Students who are able to document a relevant, specific impairment may apply for exemption from the requirement that spelling and writing skills are included in the assessment. The application must be submitted to the head of education no later than four weeks prior to the exam."
     ]
     }
-
 ]
-
-
-/*
-Internship exam requirements
-The internship is concluded with an internship report, a presentation and a discussion of one or more products developed by the student during the internship, as well as of the professional experience gained by the student. The requirements for the report and presentation are described under the guidelines for forth-semester internships.
-
-The learning objectives for the internship exam are identical to the learning objectives for the internship.
-*/

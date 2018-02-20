@@ -8,23 +8,30 @@
         top: 0;
         background-color: #e7e8e6;
         color: white;
-        padding: .5%;
         position: fixed;
         width: 100%;
         z-index: 2;
     }
 
+    .logo {
+        width: 5em;
+        float: left;
+        margin: 15px 5px 10px 30px;
+    }
+
     nav a {
         text-decoration: none;
+        margin-top: 15px;
         color: grey;
     }
 
     .active {
         color: black;
-}
+    }
 
     ul {
         list-style: none;
+        float: right;
     }
 
     li {

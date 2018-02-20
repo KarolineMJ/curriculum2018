@@ -18,11 +18,11 @@
         },
     {
         "name": "Disenrolment due to insufficient study activity",
-        "description": "Enrolment can be terminated for students who have not passed at least one exam within a consecutive period of at least one year. "
+        "description": ["Enrolment can be terminated for students who have not passed at least one exam within a consecutive period of at least one year. "]
     },
     {
         "name": "Exemption rules",
-        "description": "KEA may, due to exceptional circumstances, grant exemptions from those rules in this curriculum that are laid down solely by KEA or in cooperation with the other educational institutions offering the programme."
+        "description": ["KEA may, due to exceptional circumstances, grant exemptions from those rules in this curriculum that are laid down solely by KEA or in cooperation with the other educational institutions offering the programme."]
 
     },
     {
@@ -35,8 +35,7 @@
         "What may appeals concern?",
         "You can submit an appeal concerning the basis of the examination, the exam process or the assessment (grade).",
         "Who handles the appeal?",
-         "Appeals are normally handled by KEA Quality Assurance. This does not, however, apply to appeals concerning the basis of the examination if the exam is organised by the Danish Agency for Higher Education. In such cases, the appeal is forwarded to the agency together with KEA’s opinion."
-                      ]
+         "Appeals are normally handled by KEA Quality Assurance. This does not, however, apply to appeals concerning the basis of the examination if the exam is organised by the Danish Agency for Higher Education. In such cases, the appeal is forwarded to the agency together with KEA’s opinion."]
 
     }
 ]

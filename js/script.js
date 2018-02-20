@@ -21,7 +21,10 @@ function showInfo(data) {
         const section = document.querySelector('.rules');
         const clone = template.cloneNode(true);
         clone.querySelector("h3").textContent = elem.name;
-        clone.querySelector("p").textContent = elem.description;
+        console.log(elem.description)
+        elem.description.forEach(elem=>{
+        clone.querySelector("p").textContent = elem;
+        });
         section.appendChild(clone);
     });
 };
@@ -37,6 +40,7 @@ bubbles.forEach(bubble => {
         modal.querySelector("h1").textContent = "Exam";
     });
 });
+
 
 // Get the <span> element that closes the modal
 let span = document.querySelector('.close');

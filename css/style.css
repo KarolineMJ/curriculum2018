@@ -206,8 +206,10 @@ circle{
             position: absolute;
             top: 60%;
             left: 70%;
+            width: 100%;
             transform: translate(-50%, -50%);
             text-align: center;
+            color: white;
         }
         .textOverImage p {
             color: white;

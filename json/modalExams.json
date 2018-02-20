@@ -10,34 +10,28 @@
      "decription": ["The objective is to test the students’ understanding of the theory, method and tools acquired through participation in the compulsory programme element: Multimedia Production 2",
 
     "The exam is to demonstrate that the student is able to"],
-     "pinpoints": ["communicate visually to a target group ",
-                  "develop an interactive digital product, taking into account the stakeholders",
-                   "carry out a project in a team. "
-                  ]},
-     {"subtitle": "External exam",
-      "description":"Oral individual or group exam based on project work carried out in groups. The exam is held after the second semester.",
-     },
-
-
-
-     {"subtitle": "Project work, product and report ",
-      "description":"Project work must be interdisciplinary and problem-oriented, resulting in a functioning digital prototype and a report documenting the development work and the product. A detailed description of the project requirements can be found on the learning platform for the Multimedia Design and Communication programme and is intended to ensure that essential areas in the second semester are broadly combined. The project description sets out the requirements regarding group size, product scope and process documentation. It is made available to the students, examiner and co-examiner at the beginning of the project period.",
-     },
-      {"subtitle": "Submission",
-      "description":"Students must submit a functioning digital prototype and a project report. The report may not exceed 10 standard pages, plus 8 standard pages per group member. Front page, table of contents, bibliography and appendices are not included in the maximum number of pages. A standard page is 2,400 characters with spaces and footnotes. In connection with group reports, the individual student’s contribution must be clearly stated. Curriculum for the Academy Profession Degree Programme in Multimedia Design and Communication ",
+     "bulletpoints": ["communicate visually to a target group ",
+    "develop an interactive digital product, taking into account the stakeholders",
+    "carry out a project in a team. "],
+     "subtitle": "External exam",
+    "subdescription":"Oral individual or group exam based on project work carried out in groups. The exam is held after the second semester.",
+     "subtitle": "Project work, product and report ",
+      "subdescription":"Project work must be interdisciplinary and problem-oriented, resulting in a functioning digital prototype and a report documenting the development work and the product. A detailed description of the project requirements can be found on the learning platform for the Multimedia Design and Communication programme and is intended to ensure that essential areas in the second semester are broadly combined. The project description sets out the requirements regarding group size, product scope and process documentation. It is made available to the students, examiner and co-examiner at the beginning of the project period.",
+     "subtitle": "Submission",
+      "subdescription":"Students must submit a functioning digital prototype and a project report. The report may not exceed 10 standard pages, plus 8 standard pages per group member. Front page, table of contents, bibliography and appendices are not included in the maximum number of pages. A standard page is 2,400 characters with spaces and footnotes. In connection with group reports, the individual student’s contribution must be clearly stated. Curriculum for the Academy Profession Degree Programme in Multimedia Design and Communication ",
      },
 
 
     {"title": "Third-semester exam requirements",
     "description": "The objective is to test the students’ understanding of the theory, method and tools acquired through the compulsory programme element: Multimedia Production Advanced, and the students’ ability to develop a professional profile in relation to the current requirements in the area. An exam assignment constitutes the basis of the exam: The specific requirements regarding the exam assignment are published on the learning platform for the Multimedia Design and Communication programme.",
     "subtitle": "Internal exam",
-     "extradescription": "Individual oral exam based on one or more product examples submitted in the third semester. The exam is held in the course of or after the third semester. The specific requirements regarding the duration of the exam are published on the learning platform for the Multimedia Design and Communication programme.",
+     "subdescription": "Individual oral exam based on one or more product examples submitted in the third semester. The exam is held in the course of or after the third semester. The specific requirements regarding the duration of the exam are published on the learning platform for the Multimedia Design and Communication programme.",
 
      "title": "Elective subject on third semester",
      "subtitle": "Requirements for elective subject exam",
-     "description": "The elective subject is concluded with a presentation and a discussion, either individually or in groups, of one or more products which the students have developed in connection with the elective subject. The requirements for the presentation and product(s) are made available on the learning platform for the Multimedia Design and Communication programme.",
+     "subdescription": "The elective subject is concluded with a presentation and a discussion, either individually or in groups, of one or more products which the students have developed in connection with the elective subject. The requirements for the presentation and product(s) are made available on the learning platform for the Multimedia Design and Communication programme.",
      "subtitle":"Exam",
-     "description":"The exam form may vary depending on the objective of the elective subject in question."
+     "subdescription":"The exam form may vary depending on the objective of the elective subject in question."
     },
 
 

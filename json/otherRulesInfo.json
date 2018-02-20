@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Rules on mandatory attendance",
+        "description": ["There are no rules on mandatory attendance, but active enrolment rules and criteria apply."]
+				},
+    {
+        "name": "Credit transfer",
+        "description": ["Successfully completed programme elements are equivalent to the corresponding programme elements at other educational institutions offering the programme. Students are obliged to provide information on completed programme elements from other Danish or foreign higher education programmes and on any employment for which credit transfer may be granted.",
+        "On a case-by-case basis, KEA approves credit transfers based on completed programme elements and employment comparable to subjects, programme elements and internships. The decision is based on an academic evaluation. ",
+        "Pre-approved credit transfer ",
+        "Students may apply for pre-approved credit transfer. In case of pre-approval of a period of study in Denmark or abroad, the student is obliged, after completing the period of study, to document the programme elements completed during the approved period of study. Upon obtaining the preapproval, the student must consent to the institution requesting the necessary information after the student has completed the period of study. In connection with pre-approved credit transfer, programme elements are deemed to have been completed if passed in accordance with the rules applicable to the programme."]
+				},
+    {
+        "name": "Criteria for assessment of active enrolment",
+        "description": ["Students must actively participate in study activities, compulsory projects and assignments, tests and exams as KEA regularly evaluates student activity.",
+            "To be considered active, students must participate in  project start-up meetings  compulsory meetings with their supervisor/lecturer  project work, including submission of assignments on the learning platform for the Multimedia Design and Communication programme  project presentations and evaluations  tests and exams as described in this curriculum. These assignments must be approved for students to be able to register for exams in the semester in question.",
+            "Students who are unable to participate in study activities due to documented illness or for other acceptable reasons must contact the administration for the Multimedia Design and Communication programme immediately. The administration will inform the student about the necessary procedures, including the need to obtain a medical certificate. Students must pay for any medical certificates themselves."]
+        },
+    {
+        "name": "Disenrolment due to insufficient study activity",
+        "description": "Enrolment can be terminated for students who have not passed at least one exam within a consecutive period of at least one year. "
+    },
+    {
+        "name": "Exemption rules",
+        "description": "KEA may, due to exceptional circumstances, grant exemptions from those rules in this curriculum that are laid down solely by KEA or in cooperation with the other educational institutions offering the programme."
+
+    },
+    {
+        "name": "Appeals",
+        "description": ["Appeals against exams will be handled in accordance with the rules set out in Part 10 of the Ministerial Order on Examinations on Professionally Oriented Higher Education Programmes (the Examination Order).",
+        "When should an appeal be submitted?",
+        "Appeals relating to exams and grading must be submitted within two weeks of the assessment (grade) being announced or published.",
+        "How should an appeal be submitted?",
+        "Appeals must be submitted to kvalitet@kea.dk individually and in writing, stating the reasons for the appeal. Appeals submitted jointly by two or more students may be rejected.",
+        "What may appeals concern?",
+        "You can submit an appeal concerning the basis of the examination, the exam process or the assessment (grade).",
+        "Who handles the appeal?",
+         "Appeals are normally handled by KEA Quality Assurance. This does not, however, apply to appeals concerning the basis of the examination if the exam is organised by the Danish Agency for Higher Education. In such cases, the appeal is forwarded to the agency together with KEA’s opinion."
+                      ]
+
+    }
+]

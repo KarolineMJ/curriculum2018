@@ -1,3 +1,23 @@
+let bigCircle = document.querySelector("#BigCircle");
+let smallCircles = document.querySelectorAll(".smallJs1");
+
+// onmouseover bigCircle add new class to smallCircles
+/*bigCircle.addEventListener("mouseover", circlesGetBig);
+function circlesGetBig (){
+    console.log("yo");
+} */
+bigCircle.onmouseover = function () {
+    console.log("yo");
+    smallCircles.classList.add("moveCircles");
+    //circleGetBig()
+};
+/*
+function circleGetBig() {
+    console.log("yo");
+
+}
+*/
+
 "use strict"
 const template = document.querySelector('template').content;
 
@@ -22,8 +42,8 @@ function showInfo(data) {
         const clone = template.cloneNode(true);
         clone.querySelector("h3").textContent = elem.name;
         console.log(elem.description)
-        elem.description.forEach(elem=>{
-        clone.querySelector("p").textContent = elem;
+        elem.description.forEach(elem => {
+            clone.querySelector("p").textContent = elem;
         });
         section.appendChild(clone);
     });
@@ -46,7 +66,7 @@ bubbles.forEach(bubble => {
 let span = document.querySelector('.close');
 
 // When the user clicks on <span> (x), close the modal
-span.addEventListener("click", function (){
+span.addEventListener("click", function () {
     modal.style.display = "none";
 });
 
@@ -63,3 +83,12 @@ window.addEventListener("click", function (event) {
     modal.style.display = "block";
     modal.querySelector("h1").textContent="Exam";
 });*/
+
+
+// bubbles hover
+
+
+//select big circle and smaller circles
+
+
+// onmouseout remove class from smallCircles

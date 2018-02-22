@@ -3,10 +3,6 @@ let bubblesExam2 = document.querySelectorAll(".exambubbleSecond");
 let bubblesExam3 = document.querySelectorAll(".exambubbleThird");
 let bubblesExam4 = document.querySelectorAll(".exambubbleFourth");
 
-let bubbleExam = document.querySelectorAll(".exambubble");
-
-
-
 bubblesExam.forEach(big=>big.onmouseover = function (e) {
     bubblesExam.forEach(bub=>bub.classList.add("biggerBubble"));
 });

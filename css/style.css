@@ -55,7 +55,7 @@
     }
 
     article:nth-child(even) {
-        background: #F2F2F2;
+        background: #fda8a1;
     }
 
     footer {
@@ -66,10 +66,12 @@
         width: 100%;
     }
 
+
     .circleContainer {
         position: relative;
         z-index: 1;
     }
+
     /* .textSmallerCircle {
         position: absolute;
         top: 50%;
@@ -111,6 +113,7 @@
         width: 100%;
         height: 100%;
     }
+
 
 .smallerCircle_2-1 {
         position: absolute;
@@ -184,7 +187,7 @@
 
 circle{
         pointer-events: none;
-}
+    }
 
     .textOverCircle {
         position: absolute;
@@ -193,6 +196,27 @@ circle{
         transform: translate(-50%, -50%);
         pointer-events: none;
     }
+
+    #container-dots {
+        position: relative;
+    }
+
+
+    container {
+        position: absolute;
+        display: grid;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 80%;
+        text-align: center;
+    }
+
+    container p {
+        font-size: 1.3em;
+    }
+
 
     .examBubbles {
         display: grid;
@@ -227,6 +251,7 @@ circle{
         background-color: rgba(0, 0, 0, 0.7);
         /* Black w/ opacity */
     }
+
     /* Modal Content */
 
     .modal-content {
@@ -236,6 +261,7 @@ circle{
         border: 1px solid #888;
         width: 80%;
     }
+
     /* The Close Button */
 
     .close {
@@ -272,6 +298,8 @@ circle{
         section {
             grid-column: 1/5;
         }
+
+
         .textOverImage {
             position: absolute;
             top: 60%;

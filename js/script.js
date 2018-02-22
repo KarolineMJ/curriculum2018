@@ -1,3 +1,16 @@
+ /*when hovered circles get a bit bigger
+
+let circleBig = document.querySelector(".circleBigExam");
+
+circleBig.addEventListener("onmouseover", getBig)
+
+function getBig(){
+   console.log("im over");
+    //circleGetBig()
+}
+
+
+*/
 "use strict"
 const template = document.querySelector('template').content;
 

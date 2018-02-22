@@ -241,8 +241,39 @@ main{
         z-index: 1;
     }
 
-    .smallerCircle_1 {
+    .textOverCircle {
+        text-align: center;
+        color: white;
         position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        pointer-events: none;
+    }
+    .textOverSmallCircle {
+        display: none;
+        text-align: center;
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        pointer-events: none;
+        font-size: 11px;
+    }
+
+.textOverCircle2{
+    color: #95989A;
+}
+.smallJs1{
+    position:absolute;
+    z-index: 4;
+    pointer-events: none;
+}
+
+
+
+    .smallerCircle_1 {
         top: 20%;
         left: 70%;
         width: 20%;
@@ -350,23 +381,98 @@ main{
         width: 30%;
     }
 
+/*------------------------------------------------------------
+Circles when hovered
+------------------------------------------------------*/
+    .smallerCircle_1.moveCircles {
+        top: -28%;
+        left: 44%;
+    }
+
+    .smallerCircle_2.moveCircles {
+        top: 69%;
+        left: 10%;
+    }
+
+    .smallerCircle_3.moveCircles {
+        top: 41%;
+        left: -30%;
+    }
+
+    .smallerCircle_4.moveCircles {
+        top: 42%;
+        left: 55%;
+    }
+
+
+
+
+    .smallerCircle_2_1.moveCircles {
+        top: 38%;
+        left: 65%;
+    }
+
+
+    .smallerCircle_2_2.moveCircles {
+        top: 3%;
+        left: -27%;
+    }
+
+    .smallerCircle_2_3.moveCircles {
+        top: -23%;
+        left: 6%;
+    }
+
+    .smallerCircle_2_4.moveCircles {
+        top: 63%;
+        left: 25%;
+    }
+
+    .smallerCircle_3-1.moveCircles {
+        top: 38%;
+        left: -35%;
+    }
+
+    .smallerCircle_3-2.moveCircles {
+        top: -26%;
+        left: 46%;
+    }
+
+    .smallerCircle_3-3.moveCircles {
+        top: -15%;
+        left: -16%;
+    }
+
+    .smallerCircle_3-4.moveCircles {
+        top: 43%;
+        left: 55%;
+    }
+
+    .smallerCircle_3-5.moveCircles {
+        top: 64%;
+        left: 11%;
+    }
+
+    .smallerCircle_4-1.moveCircles {
+        top: -20%;
+        left: 44%;
+    }
+
+    .smallerCircle_4-2.moveCircles {
+        top: 15%;
+        left: 70%;
+    }
+
+/*------------------------------------------------------------
+
+------------------------------------------------------*/
+
+
     circle {
         pointer-events: none;
     }
 
-    .textOverCircle {
-        text-align: center;
-        color: white;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        pointer-events: none;
-    }
 
-.textOverCircle2{
-    color: #95989A;
-}
 
     #container-dots {
         position: relative;
@@ -416,7 +522,7 @@ Modal Content
 
     list-style-type:disc;
     display:list-item;
-    margin-left: 3em;
+    margin-left: 5em;
     padding: 0 2% !important;
 }
 
@@ -512,9 +618,11 @@ Other rules page
 
 
     .moveCircles {
-        width: 80%;
-        height: 80%;
+        width: 60%;
+        height: 60%;
     }
+
+
 
     .rule-dots {
         font-size: 3em;
@@ -609,7 +717,7 @@ Desktop Version
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
         .mainExam{
-            height: 40%;
+            height: 45%;
         }
         .textRight{
             text-align: right;

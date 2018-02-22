@@ -1,29 +1,19 @@
 let bigCircle = document.querySelectorAll(".circleContainer");
-//let smallCircles = document.querySelectorAll(".smallJs1");
-// onmouseover bigCircle add new class to smallCircles
-/*bigCircle.addEventListener("mouseover", circlesGetBig);
-function circlesGetBig (){
-    console.log("yo");
-} */
+
 bigCircle.forEach(big=>big.onmouseover = function (e) {
     let elm = big;
     let smallCircles = elm.querySelectorAll(".smallJs1");
+    let textOverBubble = elm.querySelectorAll(".textOverSmallCircle");
     smallCircles.forEach(bub=>bub.classList.add("moveCircles"));
+    textOverBubble.forEach(bub=>bub.style.display="block");
     console.log(smallCircles);
-    //circleGetBig()
 });
 
 bigCircle.forEach(big=>big.onmouseout = function (e) {
     let elm = e.target;
-    //console.log(elm);
     let smallCircles = elm.querySelectorAll(".smallJs1");
-    smallCircles.forEach(bub=>bub.classList.remove("moveCircles"));
-    //circleGetBig()
+    let textOverBubble = elm.querySelectorAll(".textOverSmallCircle");
+   smallCircles.forEach(bub=>bub.classList.remove("moveCircles"));
+    textOverBubble.forEach(bub=>bub.style.display="none");
 });
-/*
 
-function circleGetBig() {
-    console.log("yo");
-
-}
-*/

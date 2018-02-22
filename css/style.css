@@ -296,16 +296,17 @@ main{
         /* Black w/ opacity */
     }
 
-.modal h1{
-    background:#FDA8A1;
-    margin: 0;
-    padding: 2% 4%;
-    color: white;
-}
-.modal p{
-    padding: 0 4%;
-    color: #95989A;
-}
+    .modal h1 {
+        background: #FDA8A1;
+        margin: 0;
+        padding: 2% 4%;
+        color: white;
+    }
+
+    .modal p {
+        padding: 0 4%;
+        color: #95989A;
+    }
 
     /* Modal Content */
 
@@ -355,6 +356,27 @@ main{
         text-align: center;
         grid-column: 1/-1;
 
+    }
+
+    .rule-dots {
+        font-size: 3em;
+        font-family: times new roman, serif;
+        text-align: center;
+        grid-column: 1/-1;
+        margin: 0;
+    }
+
+    /*   footer     */
+
+    footer {
+        padding: 2%;
+        text-align: center;
+
+    }
+
+    footer img {
+        width: 2%;
+        padding: 0% 2% 0% 2%;
     }
 
 

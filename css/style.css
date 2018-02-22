@@ -13,9 +13,19 @@
         width: 100%;
         z-index: 2;
     }
-.mainExam{
-    background-color: #FDA8A1;
-}
+
+    .mainExam {
+        background-color: #FDA8A1;
+    }
+
+    .mainExam h1 {
+        text-align: center;
+        grid-column: 1/-1;
+        color: white;
+        font-size: 2.3em;
+
+    }
+
     .logo {
         width: 5em;
         float: left;
@@ -53,11 +63,13 @@
     }
 
     article {
-        padding: 2% 10% 2% 10%;
+        padding: 5% 10% 5% 10%;
+        color: #95989A;
     }
 
     article:nth-child(even) {
         background: #fda8a1;
+        color: white;
     }
 
     footer {
@@ -67,13 +79,15 @@
         bottom: 0;
         width: 100%;
     }
-.BigCircles{
-    pointer-events: none;
-}
 
-.examHighText{
-    padding:2% 10% 2% 10%;
-}
+    .BigCircles {
+        pointer-events: none;
+    }
+
+    .examHighText {
+        padding: 5% 10% 5% 10%;
+        color: #95989A;
+    }
 
     .circleContainer {
         position: relative;
@@ -122,77 +136,84 @@
     }
 
 
-.smallerCircle_2-1 {
+    .smallerCircle_2-1 {
         position: absolute;
         top: 50%;
         left: 80%;
         width: 20%;
     }
 
-.smallerCircle_2-2 {
+    .smallerCircle_2-2 {
         position: absolute;
         top: 30%;
         left: 10%;
         width: 15%;
     }
-.smallerCircle_2-3 {
+
+    .smallerCircle_2-3 {
         position: absolute;
         top: 15%;
         left: 20%;
         width: 20%;
     }
-.smallerCircle_2-4{
-       position: absolute;
+
+    .smallerCircle_2-4 {
+        position: absolute;
         top: 70%;
         left: 70%;
         width: 15%;
     }
-.smallerCircle_3-1 {
+
+    .smallerCircle_3-1 {
         position: absolute;
         top: 60%;
         left: 10%;
         width: 15%;
     }
 
-.smallerCircle_3-2 {
+    .smallerCircle_3-2 {
         position: absolute;
         top: 10%;
         left: 60%;
         width: 30%;
     }
-.smallerCircle_3-3 {
+
+    .smallerCircle_3-3 {
         position: absolute;
         top: 15%;
         left: 20%;
         width: 15%;
     }
-.smallerCircle_3-4{
-       position: absolute;
+
+    .smallerCircle_3-4 {
+        position: absolute;
         top: 70%;
         left: 70%;
         width: 15%;
     }
-.smallerCircle_3-5{
-       position: absolute;
+
+    .smallerCircle_3-5 {
+        position: absolute;
         top: 70%;
         left: 20%;
         width: 15%;
     }
 
-.smallerCircle_4-1 {
+    .smallerCircle_4-1 {
         position: absolute;
         top: 10%;
         left: 55%;
         width: 30%;
     }
-.smallerCircle_4-2{
-       position: absolute;
+
+    .smallerCircle_4-2 {
+        position: absolute;
         top: 30%;
         left: 70%;
         width: 30%;
     }
 
-circle{
+    circle {
         pointer-events: none;
     }
 
@@ -222,6 +243,7 @@ circle{
 
     container p {
         font-size: 1.3em;
+        color: #454545;
     }
 
 

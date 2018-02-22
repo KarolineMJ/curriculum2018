@@ -47,6 +47,7 @@ bubbles.forEach(bubble => {
             if(e.target.id == "first"){
                 modal.querySelector("h1").textContent = data[0].title;
                 //data.forEach(modalData=>{
+                    document.querySelectorAll(".modal-content p").forEach(p=>p.remove());
                     data[0].description.forEach(desc=>{
                         let ptag = document.createElement("p");
                         ptag.textContent=desc;

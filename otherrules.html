@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
     <title>Curriculum | Rules </title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Gafata" rel="stylesheet">
@@ -13,8 +14,8 @@
 
 <body>
 
-   <nav class="littleNav">
-                  <div>
+<nav class="littleNav" role="navigation">
+            <div>
                 <a href="index.html">
                     <svg version="1.1" class="logo" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 158 72" style="enable-background:new 0 0 158 72;" xml:space="preserve">
 <style type="text/css">
@@ -84,13 +85,23 @@
 </svg>
                 </a>
             </div>
-       <ul>
+    <div id="menuToggle">
+        <input type="checkbox" />
+
+    <span></span>
+    <span></span>
+    <span></span>
+
+       <ul id="menu">
             <li><a href="index.html" class="active"> Home </a></li>
             <li><a href="exam.html"> Exams </a></li>
             <li><a href="otherrules.html"> Other Rules </a></li>
        </ul>
-
+    </div>
    </nav>
+
+
+
 
         <nav class="bigNav">
             <div>
@@ -164,9 +175,9 @@
                 </a>
             </div>
             <ul>
-                <li><a href="index.html" class="active"> Home </a></li>
+                <li><a href="index.html"> Home </a></li>
                 <li><a href="exam.html"> Exams </a></li>
-                <li><a href="otherrules.html"> Other Rules </a></li>
+                <li><a href="otherrules.html" class="active"> Other Rules </a></li>
             </ul>
     </nav>
 

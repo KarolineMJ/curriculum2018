@@ -12,7 +12,7 @@ This is for mobile version
 a
 {
   text-decoration: none;
-  color: #232323;
+  color: #95989A;
 
   transition: color 0.3s ease;
 }
@@ -28,9 +28,7 @@ a:hover
   position: absolute;
   top: 30%;
   right: 5%;
-
   z-index: 1;
-
   -webkit-user-select: none;
   user-select: none;
 }
@@ -43,15 +41,15 @@ a:hover
   position: absolute;
   top: -7px;
   left: -5px;
-
   cursor: pointer;
-
-  opacity: 0; /* hide this */
-  z-index: 2; /* and place it over the hamburger */
-
-  -webkit-touch-callout: none;
+  opacity: 0;
+  z-index: 2;
 }
 
+.headerImage{
+    width:200%;
+    margin-left: -100px;
+}
 
 #menuToggle span
 {
@@ -90,28 +88,19 @@ a:hover
   background: white;
 }
 
-/*
- * But let's hide the middle one.
- */
 #menuToggle input:checked ~ span:nth-last-child(3)
 {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-/*
- * Ohyeah and the last one should go the other direction
- */
+
 #menuToggle input:checked ~ span:nth-last-child(2)
 {
   opacity: 1;
   transform: rotate(-45deg) translate(0, -1px);
 }
 
-/*
- * Make this absolute positioned
- * at the top left of the screen
- */
 #menu
 {
   position: absolute;
@@ -121,11 +110,9 @@ a:hover
   padding: 50px;
   padding-top: 125px;
   right: -100px;
-
+    box-shadow: -2px 6px #fefefe;
   background: #FDA8A1;
   list-style-type: none;
-  -webkit-font-smoothing: antialiased;
-  /* to stop flickering of text in safari */
 
   transform-origin: 0% 0%;
   transform: translate(100%, 0);
@@ -145,9 +132,7 @@ a:hover
     color: white;
 }
 
-/*
- * And let's fade it in from the left
- */
+
 #menuToggle input:checked ~ ul
 {
   transform: scale(1.0, 1.0);
@@ -159,7 +144,16 @@ a:hover
     }
 
 
-
+ .textOverImage {
+    text-align: center;
+    color: grey;
+ }
+.textOverImage p{
+    font-size: 14px;
+}
+.textOverImage h1{
+    font-size: 22px;
+}
 
 
 
@@ -199,12 +193,6 @@ main{
         margin: 15px 5px 10px 30px;
     }
 
-
-
-    .active {
-        color: black;
-    }
-
     ul {
         list-style: none;
         float: right;
@@ -236,13 +224,6 @@ main{
     }
 
 
-    footer {
-        margin-top: 1em;
-        background: #e7e8e6;
-        height: 2em;
-        bottom: 0;
-        width: 100%;
-    }
 
     .BigCircles {
         pointer-events: none;
@@ -257,14 +238,6 @@ main{
         position: relative;
         z-index: 1;
     }
-
-    /* .textSmallerCircle {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-    */
 
     .smallerCircle_1 {
         position: absolute;
@@ -407,6 +380,7 @@ main{
         grid-template-columns: 1fr 1fr 1fr;
         width: 80%;
         text-align: center;
+        font-size: 11px;
     }
 
     container p {
@@ -456,8 +430,9 @@ main{
         padding: 0 4%;
         color: #95989A;
     }
-
-    /* Modal Content */
+/*--------------------------------------------------------------------------------
+Modal Content
+------------------------------------------------------------------------------*/
 
     .modal-content {
         background-color: #fefefe;
@@ -465,8 +440,9 @@ main{
         border: 1px solid #888;
         width: 80%;
     }
-
-    /* The Close Button */
+/*--------------------------------------------------------------------------------
+The Close Button
+------------------------------------------------------------------------------*/
 
     .close {
         padding: 1.5% 2%;
@@ -491,9 +467,9 @@ main{
     .examImages {
         cursor: pointer;
     }
-
-
-    /*       other rules page     */
+/*--------------------------------------------------------------------------------
+Other rules page
+------------------------------------------------------------------------------*/
 
     #mainRules {
         background: #fda8a1;
@@ -513,6 +489,32 @@ main{
         height: 80%;
     }
 
+    .rule-dots {
+        font-size: 3em;
+        font-family: times new roman, serif;
+        text-align: center;
+        grid-column: 1/-1;
+        margin: 0;
+    }
+/*--------------------------------------------------------------------------------
+Footer
+------------------------------------------------------------------------------*/
+
+    footer {
+        padding: 2%;
+        text-align: center;
+        background: #e7e8e6;
+
+    }
+
+    footer img {
+        width: 5%;
+        padding: 0% 2% 0% 2%;
+    }
+
+
+
+
 /*--------------------------------------------------------------------------------
 Tablet Version
 ------------------------------------------------------------------------------*/
@@ -521,7 +523,6 @@ Tablet Version
     .bigNav a {
         text-decoration: none;
         margin-top: 15px;
-        color: grey;
     }
     .littleNav{
         display: none;
@@ -535,44 +536,51 @@ Tablet Version
         width: 100%;
         z-index: 2;
     }
-
-
-
+.headerImage{
+    width:100%;
+    margin-left: 0;
 }
-=======
-    .rule-dots {
-        font-size: 3em;
-        font-family: times new roman, serif;
-        text-align: center;
-        grid-column: 1/-1;
-        margin: 0;
+    .mainIndex{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 
-    /*   footer     */
-
-    footer {
-        padding: 2%;
-        text-align: center;
-
+            .textOverImage {
+            position: absolute;
+            top: 60%;
+            left: 70%;
+            width: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
+        }
+    .examBubbles {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+        footer img {
+        width: 3%;
     }
 
-    footer img {
-        width: 2%;
-        padding: 0% 2% 0% 2%;
+    container{
+        font-size: 14px;
     }
-
+    .container {
+            position: relative;
+            z-index: -1;
+        }
+}
 
 
 /*--------------------------------------------------------------------------------
 Desktop Version
 ------------------------------------------------------------------------------*/
 
-    @media only screen and (min-width: 700px) {
-        main {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-
-        }
+    @media only screen and (min-width: 770px) {
+    .mainIndex{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 
         .examBubbles {
         display: grid;
@@ -601,4 +609,8 @@ Desktop Version
         .textOverImage p {
             color: white;
         }
-    }
+
+    footer img {
+        width: 2%;
+        }
+}

@@ -19,10 +19,16 @@ function showInfo(data) {
     data.forEach(elem => {
         const section = document.querySelector('.rules');
         const clone = template.cloneNode(true);
+        let article = clone.querySelector("article");
         clone.querySelector("h3").textContent = elem.name;
         console.log(elem.description)
         elem.description.forEach(elem => {
-            clone.querySelector("p").textContent = elem;
+            let ptag = document.createElement("p");
+            ptag.textContent = elem;
+            console.log(ptag);
+            const newBreak = document.createElement("br");
+            ptag.appendChild(newBreak);
+            article.appendChild(ptag);
         });
         section.appendChild(clone);
     });
@@ -40,7 +46,15 @@ bubbles.forEach(bubble => {
             console.log(e.target.id);
             if(e.target.id == "first"){
                 modal.querySelector("h1").textContent = data[0].title;
-                modal.querySelector("p").textContent = data[0].description;
+                //data.forEach(modalData=>{
+                    data[0].description.forEach(desc=>{
+                        let ptag = document.createElement("p");
+                        ptag.textContent=desc;
+                        let modalDiv = document.querySelector(".modal-content");
+                        modalDiv.appendChild(ptag);
+                    });
+                //})
+                //modal.querySelector("p").textContent = data[0].description;
 
             }
             if(e.target.id == "second"){

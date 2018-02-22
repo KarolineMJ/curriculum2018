@@ -33,13 +33,7 @@ a:hover
   user-select: none;
 }
 
-.listetBullet{
 
-    list-style-type:disc;
-    display:list-item;
-    margin-left: 3em;
-    padding: 0;
-}
 
 #menuToggle input
 {
@@ -401,17 +395,35 @@ main{
     .bubbleSVG {
         cursor: pointer;
     }
+.biggerBubble{
+    width:120%;
+}
 
     .middelBubbles {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    .modal {
+
+
+
+
+/*--------------------------------------------------------------------------------
+Modal Content
+------------------------------------------------------------------------------*/
+.listetBullet{
+
+    list-style-type:disc;
+    display:list-item;
+    margin-left: 3em;
+    padding: 0 2% !important;
+}
+
+.modal {
         display: none;
         position: fixed;
         z-index: 3;
-        padding-top: 100px;
+        padding-top: 50px;
         /* Location of the box */
         left: 0;
         top: 0;
@@ -442,17 +454,18 @@ main{
         padding: 0 4%;
         color: #95989A;
     }
-
-/*--------------------------------------------------------------------------------
-Modal Content
-------------------------------------------------------------------------------*/
-
+    .modal h3 {
+        padding: 0 4%;
+        color: #95989A;
+    }
     .modal-content {
         background-color: #fefefe;
         margin: auto;
         border: 1px solid #888;
-        width: 80%;
+        width: 90%;
     }
+
+
 /*--------------------------------------------------------------------------------
 The Close Button
 ------------------------------------------------------------------------------*/
@@ -564,7 +577,7 @@ Tablet Version
             left: 70%;
             width: 50%;
             transform: translate(-50%, -50%);
-            text-align: center;
+            text-align: right;
             color: white;
         }
     .examBubbles {
@@ -580,7 +593,7 @@ Tablet Version
     }
     .container {
             position: relative;
-            z-index: -1;
+            z-index: 1;
         }
 }
 
@@ -605,7 +618,7 @@ Desktop Version
 
         .container {
             position: relative;
-            z-index: -1;
+            z-index: 1;
         }
         section {
             grid-column: 1/5;

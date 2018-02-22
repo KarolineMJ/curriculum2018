@@ -1,16 +1,3 @@
- /*when hovered circles get a bit bigger
-
-let circleBig = document.querySelector(".circleBigExam");
-
-circleBig.addEventListener("onmouseover", getBig)
-
-function getBig(){
-   console.log("im over");
-    //circleGetBig()
-}
-
-
-*/
 "use strict"
 const template = document.querySelector('template').content;
 
@@ -59,8 +46,11 @@ bubbles.forEach(bubble => {
             console.log(e.target.id);
             if(e.target.id == "first"){
                 modal.querySelector("h1").textContent = data[0].title;
+
                 //data.forEach(modalData=>{
                     document.querySelectorAll(".modal-content p").forEach(p=>p.remove());
+                 document.querySelectorAll(".modal-content h2").forEach(h2=>h2.remove());
+                     document.querySelectorAll(".modal-content h3").forEach(h3=>h3.remove());
                     data[0].description.forEach(desc=>{
                         let ptag = document.createElement("p");
                         ptag.textContent=desc;
@@ -75,6 +65,7 @@ bubbles.forEach(bubble => {
                 modal.querySelector("h1").textContent = data[1].title;
                     document.querySelectorAll(".modal-content p").forEach(p=>p.remove());
                     document.querySelectorAll(".modal-content h2").forEach(h2=>h2.remove());
+                     document.querySelectorAll(".modal-content h3").forEach(h3=>h3.remove());
                     data[1].description.forEach(desc=>{
                         let ptag = document.createElement("p");
                         ptag.textContent=desc;
@@ -94,15 +85,48 @@ bubbles.forEach(bubble => {
                         subtitle.textContent=desc;
                         let modalDiv = document.querySelector(".modal-content");
                         modalDiv.appendChild(subtitle);
+                    });
+                    data[1].subdescription.forEach(desc=>{
+                        let subdescription = document.createElement("p");
+                        subdescription.textContent=desc;
+                        let modalDiv = document.querySelector(".modal-content");
+                        modalDiv.appendChild(subdescription);
 
                     });
-               //modal.querySelector("h1").textContent = data[1].title;
-                //modal.querySelector("p").textContent = data[1].description;
-                //console.log(data[1].bulletpoints)
+                    data[1].subtitle2.forEach(desc=>{
+                        let subtitle2 = document.createElement("h2");
+                        subtitle2.textContent=desc;
+                        let modalDiv = document.querySelector(".modal-content");
+                        modalDiv.appendChild(subtitle2);
+
+                    });
+                    data[1].subdescription2.forEach(desc=>{
+                        let subdescription2 = document.createElement("p");
+                        subdescription2.textContent=desc;
+                        let modalDiv = document.querySelector(".modal-content");
+                        modalDiv.appendChild(subdescription2);
+
+                    });
+                    data[1].subtitle3.forEach(desc=>{
+                        let subtitle3 = document.createElement("h2");
+                        subtitle3.textContent=desc;
+                        let modalDiv = document.querySelector(".modal-content");
+                        modalDiv.appendChild(subtitle3);
+
+                    });
+                    data[1].subdescription3.forEach(desc=>{
+                        let subdescription3 = document.createElement("p");
+                        subdescription3.textContent=desc;
+                        let modalDiv = document.querySelector(".modal-content");
+                        modalDiv.appendChild(subdescription3);
+                    });
+
             }
             if(e.target.id == "third"){
                 modal.querySelector("h1").textContent = data[2].title;
                     document.querySelectorAll(".modal-content p").forEach(p=>p.remove());
+                    document.querySelectorAll(".modal-content h2").forEach(h2=>h2.remove());
+                    document.querySelectorAll(".modal-content h3").forEach(h3=>h3.remove());
                     data[2].description.forEach(desc=>{
                         let ptag = document.createElement("p");
                         ptag.textContent=desc;
@@ -110,14 +134,58 @@ bubbles.forEach(bubble => {
                         modalDiv.appendChild(ptag);
 
                     });
+                    data[2].subtitle.forEach(desc=>{
+                        let subtitle = document.createElement("h3");
+                        subtitle.textContent=desc;
+                        let modalDiv = document.querySelector(".modal-content");
+                        modalDiv.appendChild(subtitle);
+                    });
+                    data[2].subdescription.forEach(desc=>{
+                        let subdescription = document.createElement("p");
+                        subdescription.textContent=desc;
+                        let modalDiv = document.querySelector(".modal-content");
+                        modalDiv.appendChild(subdescription);
 
-                //modal.querySelector("h1").textContent = data[2].title;
-                //modal.querySelector("p").textContent = data[2].description;
-                //console.log(data[1].bulletpoints)
+                    });
+                    data[2].title2.forEach(desc=>{
+                        let title2 = document.createElement("h2");
+                        title2.textContent=desc;
+                        let modalDiv = document.querySelector(".modal-content");
+                        modalDiv.appendChild(title2);
+                    });
+                    data[2].subtitle2.forEach(desc=>{
+                        let subtitle2 = document.createElement("h3");
+                        subtitle2.textContent=desc;
+                        let modalDiv = document.querySelector(".modal-content");
+                        modalDiv.appendChild(subtitle2);
+
+                    });
+                    data[2].subdescription2.forEach(desc=>{
+                        let subdescription2 = document.createElement("p");
+                        subdescription2.textContent=desc;
+                        let modalDiv = document.querySelector(".modal-content");
+                        modalDiv.appendChild(subdescription2);
+
+                    });
+                    data[2].subtitle3.forEach(desc=>{
+                        let subtitle3 = document.createElement("h3");
+                        subtitle3.textContent=desc;
+                        let modalDiv = document.querySelector(".modal-content");
+                        modalDiv.appendChild(subtitle3);
+
+                    });
+                    data[2].subdescription3.forEach(desc=>{
+                        let subdescription3 = document.createElement("p");
+                        subdescription3.textContent=desc;
+                        let modalDiv = document.querySelector(".modal-content");
+                        modalDiv.appendChild(subdescription3);
+                    });
             }
             if(e.target.id == "fourth"){
                 modal.querySelector("h1").textContent = data[3].title;
                     document.querySelectorAll(".modal-content p").forEach(p=>p.remove());
+                    document.querySelectorAll(".modal-content h2").forEach(h2=>h2.remove());
+                    document.querySelectorAll(".modal-content h3").forEach(h3=>h3.remove());
                     data[3].description.forEach(desc=>{
                         let ptag = document.createElement("p");
                         ptag.textContent=desc;
@@ -125,9 +193,6 @@ bubbles.forEach(bubble => {
                         modalDiv.appendChild(ptag);
 
                     });
-                //modal.querySelector("h1").textContent = data[3].title;
-                //modal.querySelector("p").textContent = data[3].description;
-                //console.log(data[1].bulletpoints)
             }
             modal.style.display = "block";
         });

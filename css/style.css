@@ -13,7 +13,9 @@
         width: 100%;
         z-index: 2;
     }
-
+.mainExam{
+    background-color: #FDA8A1;
+}
     .logo {
         width: 5em;
         float: left;
@@ -45,7 +47,7 @@
     }
 
     main {
-        margin-top: 80px;
+        margin-top: 60px;
         padding-left: 10%;
         padding-right: 10%;
     }
@@ -65,7 +67,13 @@
         bottom: 0;
         width: 100%;
     }
+.BigCircles{
+    pointer-events: none;
+}
 
+.examHighText{
+    padding:2% 10% 2% 10%;
+}
 
     .circleContainer {
         position: relative;
@@ -109,7 +117,6 @@
     }
 
     .moveCircles {
-        background-color: aquamarine;
         width: 100%;
         height: 100%;
     }

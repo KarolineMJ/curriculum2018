@@ -16,6 +16,7 @@
 
     .mainExam {
         background-color: #FDA8A1;
+        padding: 5% 10% 5% 10%;
     }
 
     .mainExam h1 {
@@ -71,6 +72,7 @@
         background: #fda8a1;
         color: white;
     }
+
 
     footer {
         margin-top: 1em;
@@ -137,7 +139,7 @@
 
 
 
-.smallerCircle_2_1 {
+    .smallerCircle_2_1 {
         position: absolute;
         top: 50%;
         left: 80%;
@@ -145,22 +147,22 @@
     }
 
 
-.smallerCircle_2_2 {
+    .smallerCircle_2_2 {
         position: absolute;
         top: 30%;
         left: 10%;
         width: 15%;
     }
 
-.smallerCircle_2_3 {
+    .smallerCircle_2_3 {
         position: absolute;
         top: 15%;
         left: 20%;
         width: 20%;
     }
 
-.smallerCircle_2_4{
-       position: absolute;
+    .smallerCircle_2_4 {
+        position: absolute;
         top: 70%;
         left: 70%;
         width: 15%;
@@ -317,6 +319,24 @@
     .examImages {
         cursor: pointer;
     }
+
+
+    /*       other rules page     */
+
+    #mainRules {
+        background: #fda8a1;
+        color: white;
+        padding: 5% 10% 5% 10%;
+    }
+
+    #mainRules h1 {
+        text-align: center;
+        grid-column: 1/-1;
+
+    }
+
+
+    /*      desktop version       */
 
     @media only screen and (min-width: 700px) {
         main {

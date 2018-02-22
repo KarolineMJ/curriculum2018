@@ -284,12 +284,22 @@
         /* Black w/ opacity */
     }
 
+.modal h1{
+    background:#FDA8A1;
+    margin: 0;
+    padding: 2% 4%;
+    color: white;
+}
+.modal p{
+    padding: 0 4%;
+    color: #95989A;
+}
+
     /* Modal Content */
 
     .modal-content {
         background-color: #fefefe;
         margin: auto;
-        padding: 20px;
         border: 1px solid #888;
         width: 80%;
     }
@@ -297,10 +307,12 @@
     /* The Close Button */
 
     .close {
-        color: #aaaaaa;
+        padding: 1.5% 2%;
+        color: white;
         float: right;
-        font-size: 28px;
+        font-size: 35px;
         font-weight: bold;
+
     }
 
     .close:hover,

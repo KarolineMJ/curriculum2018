@@ -60,18 +60,61 @@ bubbles.forEach(bubble => {
             }
             if(e.target.id == "second"){
                 modal.querySelector("h1").textContent = data[1].title;
-                modal.querySelector("p").textContent = data[1].description;
-                console.log(data[1].bulletpoints)
+                    document.querySelectorAll(".modal-content p").forEach(p=>p.remove());
+                    document.querySelectorAll(".modal-content h2").forEach(h2=>h2.remove());
+                    data[1].description.forEach(desc=>{
+                        let ptag = document.createElement("p");
+                        ptag.textContent=desc;
+                        let modalDiv = document.querySelector(".modal-content");
+                        modalDiv.appendChild(ptag);
+                    });
+                    data[1].bulletpoints.forEach(desc=>{
+                        let bullet = document.createElement("p");
+                        bullet.classList.add("listetBullet");
+                        bullet.textContent=desc;
+                        let modalDiv = document.querySelector(".modal-content");
+                        modalDiv.appendChild(bullet);
+
+                    });
+                    data[1].subtitle.forEach(desc=>{
+                        let subtitle = document.createElement("h2");
+                        subtitle.textContent=desc;
+                        let modalDiv = document.querySelector(".modal-content");
+                        modalDiv.appendChild(subtitle);
+
+                    });
+               //modal.querySelector("h1").textContent = data[1].title;
+                //modal.querySelector("p").textContent = data[1].description;
+                //console.log(data[1].bulletpoints)
             }
             if(e.target.id == "third"){
                 modal.querySelector("h1").textContent = data[2].title;
-                modal.querySelector("p").textContent = data[2].description;
-                console.log(data[1].bulletpoints)
+                    document.querySelectorAll(".modal-content p").forEach(p=>p.remove());
+                    data[2].description.forEach(desc=>{
+                        let ptag = document.createElement("p");
+                        ptag.textContent=desc;
+                        let modalDiv = document.querySelector(".modal-content");
+                        modalDiv.appendChild(ptag);
+
+                    });
+
+                //modal.querySelector("h1").textContent = data[2].title;
+                //modal.querySelector("p").textContent = data[2].description;
+                //console.log(data[1].bulletpoints)
             }
             if(e.target.id == "fourth"){
                 modal.querySelector("h1").textContent = data[3].title;
-                modal.querySelector("p").textContent = data[3].description;
-                console.log(data[1].bulletpoints)
+                    document.querySelectorAll(".modal-content p").forEach(p=>p.remove());
+                    data[3].description.forEach(desc=>{
+                        let ptag = document.createElement("p");
+                        ptag.textContent=desc;
+                        let modalDiv = document.querySelector(".modal-content");
+                        modalDiv.appendChild(ptag);
+
+                    });
+                //modal.querySelector("h1").textContent = data[3].title;
+                //modal.querySelector("p").textContent = data[3].description;
+                //console.log(data[1].bulletpoints)
             }
             modal.style.display = "block";
         });

@@ -33,6 +33,14 @@ a:hover
   user-select: none;
 }
 
+.listetBullet{
+
+    list-style-type:disc;
+    display:list-item;
+    margin-left: 3em;
+    padding: 0;
+}
+
 #menuToggle input
 {
   display: block;
@@ -430,6 +438,11 @@ main{
         padding: 0 4%;
         color: #95989A;
     }
+    .modal h2 {
+        padding: 0 4%;
+        color: #95989A;
+    }
+
 /*--------------------------------------------------------------------------------
 Modal Content
 ------------------------------------------------------------------------------*/

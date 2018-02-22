@@ -6,16 +6,16 @@ function circlesGetBig (){
     console.log("yo");
 } */
 bigCircle.forEach(big=>big.onmouseover = function (e) {
-    let elm = e.target;
-    console.log(elm);
+    let elm = big;
     let smallCircles = elm.querySelectorAll(".smallJs1");
     smallCircles.forEach(bub=>bub.classList.add("moveCircles"));
+    console.log(smallCircles);
     //circleGetBig()
 });
 
 bigCircle.forEach(big=>big.onmouseout = function (e) {
     let elm = e.target;
-    console.log(elm);
+    //console.log(elm);
     let smallCircles = elm.querySelectorAll(".smallJs1");
     smallCircles.forEach(bub=>bub.classList.remove("moveCircles"));
     //circleGetBig()

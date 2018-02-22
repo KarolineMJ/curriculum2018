@@ -46,11 +46,15 @@ bubbles.forEach(bubble => {
             console.log(e.target.id);
             if(e.target.id == "first"){
                 modal.querySelector("h1").textContent = data[0].title;
-                modal.querySelector("p").textContent = data[0].description;
-
-
-
-
+                //data.forEach(modalData=>{
+                    data[0].description.forEach(desc=>{
+                        let ptag = document.createElement("p");
+                        ptag.textContent=desc;
+                        let modalDiv = document.querySelector(".modal-content");
+                        modalDiv.appendChild(ptag);
+                    });
+                //})
+                //modal.querySelector("p").textContent = data[0].description;
 
             }
             if(e.target.id == "second"){
